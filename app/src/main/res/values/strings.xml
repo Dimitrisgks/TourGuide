@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TourGuideNafpaktos</string>
+    // hotels
+    <string name="hotel1">niki</string>
+    <string name="hotel2">Plaza Hotel</string>
+    <string name="hotel3">Nafs Hotel</string>
+    <string name="hotel4">hlion</string>
+    <string name="hotel5">star hotel</string>
+    // hotels address
+    <string name="add1">karakoulaki 2 30300</string>
+    <string name="add2">naumaxias 37 30300</string>
+    <string name="add3">nova 33 30300 </string>
+    <string name="add4">ntaliani 7 30300</string>
+    <string name="add5">platanitis 30300</string>
+    // main activity
+    <string name="ho">Hotels</string>
+    <string name="Night">NightLife</string>
+    <string name="Res">Restaurants</string>
+    <string name="Sights">SightSeeing</string>
+    //nightlife
+    <string name="night1">mojo</string>
+    <string name="night2">paradise</string>
+    <string name="night3">Suita Cafe-Bar</string>
+    <string name="night4">BAR 2</string>
+    <string name="night5">beer bar"</string>
+    //nightlife address
+    <string name="nadd1">limani 7 30300</string>
+    <string name="nadd2">Naymaxias 3 30300</string>
+    <string name="nadd3">formionos 8 30300</string>
+    <string name="nadd4">mpotsari 43 30300</string>
+    <string name="nadd5">Platia Georgiou 30300</string>
+    //restaurant
+    <string name="rest1">Thomas Thomopoulos</string>
+    <string name="rest2">Captain Cook</string>
+    <string name="rest3">taste</string>
+    <string name="rest4">Centro Porto</string>
+    <string name="rest5">faganas</string>
+    //restaurant address
+    <string name="ra1">Lygia Neokastrou Str 30300</string>
+    <string name="ra2">formionos 10  30300</string>
+    <string name="ra3">botsari 62 30300</string>
+    <string name="ra4">formionos 8 30300</string>
+    <string name="ra5">nova 10 30300</string>
+    //sight
+    <string name="si1">Church of Prophet Elias</string>
+    <string name="si2">Statue of Anemogiannis </string>
+    <string name="si3">Venetian Castle</string>
+    <string name="si4">Statue of Cervantes</string>
+    <string name="si5">Tower of Botsaris</string>
+    //sight address
+    <string name="sa1">in town 30300</string>
+    <string name="sa2">old venetian port 30300 </string>
+    <string name="sa3">nafpaktia 30300</string>
+    <string name="sa4">nafpaktia 30300</string>
+    <string name="sa5">nafpaktia 30300</string>
+</resources>

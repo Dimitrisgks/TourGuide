@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nafpaktos" />
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/HotelText"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ho" />
+
+            <ImageView
+                android:id="@+id/HotelImage"
+                android:layout_width="@dimen/Ima_width"
+                android:layout_height="@dimen/Ima_width"
+                android:layout_gravity="end"
+                android:src="@drawable/hotel" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/RestaurantText"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/Res" />
+
+            <ImageView
+                android:id="@+id/RestaurantImage"
+                android:layout_width="@dimen/Ima_width"
+                android:layout_height="@dimen/Ima_width"
+                android:layout_gravity="end"
+                android:src="@drawable/food" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/SightText"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/Sights" />
+
+            <ImageView
+                android:id="@+id/SightImage"
+                android:layout_width="@dimen/Ima_width"
+                android:layout_height="@dimen/Ima_width"
+                android:layout_gravity="end"
+                android:src="@drawable/sight" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/NightText"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/Night" />
+
+            <ImageView
+                android:id="@+id/NightImage"
+                android:layout_width="@dimen/Ima_width"
+                android:layout_height="@dimen/Ima_width"
+                android:layout_gravity="end"
+                android:src="@drawable/night1" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
